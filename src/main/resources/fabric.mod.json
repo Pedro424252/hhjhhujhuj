@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "money",
+  "version": "${version}",
+  "name": "Money",
+  "description": "Money. Gaks_v310 Tarafindan Yapilmistir.",
+  "authors": ["Gaks_v310"],
+  "environment": "client",
+  "mixins": ["money.mixins.json"],
+  "entrypoints": { "client": ["com.example.money.Money"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}

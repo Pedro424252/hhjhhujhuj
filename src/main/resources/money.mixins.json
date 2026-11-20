@@ -1,0 +1,7 @@
+{
+  "required": false,
+  "package": "com.example.money.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ChatHudMixin", "SoundMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
